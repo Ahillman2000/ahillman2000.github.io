@@ -1,7 +1,10 @@
 ﻿body{
 	margin: 8px;
-	//style: "background-color:#545454";
-	background-color: grey;
+	/*style: "background-color:#545454";
+	background-color: grey;*/
+
+	style: "background-color:#FFFFFF";
+	background-color: white;
 }
 
 .nav-wrapper{
