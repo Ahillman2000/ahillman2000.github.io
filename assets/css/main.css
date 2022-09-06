@@ -1804,7 +1804,7 @@ input, select, textarea {
 					-webkit-transition: background-color .2s ease-in-out;
 					-ms-transition: background-color .2s ease-in-out;
 					transition: background-color .2s ease-in-out;
-					background-color: #444;
+					background-color: rgb(128, 128, 128);
 					border-radius: 6px;
 					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
 					color: #2E2E2E !important;
@@ -1911,11 +1911,15 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #fff;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: center;
 		padding: 2em;
+		transition: 0.5s all ease-in-out;
 	}
+		.box:hover{
+			/*background: rgb(255, 0, 0);*/
+			transform: scale(1.1);
+		}
 
 		.box.style1 {
 			padding: 3em 2em 3.5em 2em;
@@ -1987,7 +1991,7 @@ input, select, textarea {
 /* Wrappers */
 
 	.wrapper {
-		background-image: url("images/bg.png");
+		/*background-image: url("images/bg.png");*/
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
 		text-align: center;
@@ -2373,6 +2377,7 @@ input, select, textarea {
 				}
 
 				.box.style2 {
+
 					max-width: 32em;
 					margin-left: auto !important;
 					margin-right: auto !important;
