@@ -282,6 +282,11 @@ input, select, textarea {
 
 		}
 
+		.fade
+		{
+			opacity:0;
+		}
+
 /* Row */
 
 	.row {
@@ -1917,7 +1922,6 @@ input, select, textarea {
 		transition: 0.5s all ease-in-out;
 	}
 		.box:hover{
-			/*background: rgb(255, 0, 0);*/
 			transform: scale(1.1);
 		}
 
