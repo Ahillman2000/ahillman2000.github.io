@@ -152,6 +152,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		color: #3e3e3e;
 		margin: 0 0 0.75em 0;
+		text-align: center;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -215,6 +216,7 @@ input, select, textarea {
 
 	footer {
 		margin: 3em 0 0 0;
+		text-align: center;
 	}
 
 		footer > p {
@@ -1978,6 +1980,14 @@ input, select, textarea {
 			font-weight: 900;
 		}
 
+		.icon.brands
+		{
+			text-align:center;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
@@ -1999,28 +2009,31 @@ input, select, textarea {
 		/*background-image: url("images/bg.png");*/
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
-		text-align: center;
 	}
 
 		.wrapper.style1 {
 			background-image: none;
 			background-color: #fff;
+			text-align: center;
 		}
 
 		.wrapper.style2 {
 			background-color: #fafafa;
 			text-shadow: 1px 1px 0px #fff;
+			text-align: left;
 		}
 
 		.wrapper.style3 {
 			background-color: #f1f1f1;
 			text-shadow: 1px 1px 0px #fff;
+			text-align: center;
 		}
 
 		.wrapper.style4 {
 			background-color: #303030;
 			color: #999;
 			text-shadow: -1px -1px 0px #181818;
+			text-align: center;
 		}
 
 			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
